@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Homework #4</title>
+
+    <style>
+      #whole-page{
+        background-color: rgb(217, 247, 111);
+      }
+
+      .ptag{
+      font-size: 25px;
+      text-align: center;
+      padding-bottom: 30px;
+    }
+    li {
+      font-size: 18px;
+    }
+
+    #heading1 {
+    background: -webkit-linear-gradient( #ffe838, #f325a7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+    #heading1{
+      font-weight: bold;
+      font-size: 50px;
+      text-decoration: underline;
+      text-emphasis-color: linear-gradient(to top, #ffe838, #fd57bf);      
+    }
+    
+
+    .headings{
+        padding-bottom: 20px;
+        text-align: center;
+  
+      }
+
+      .steps {
+        list-style-type: upper-roman;
+      }
+
+      .ingredients li:before {
+        content: "📝";
+        padding-right: 5px;
+      }
+      .ingredients{
+        list-style: none;
+      }
+      .ptag > span {
+        font-style: italic;
+        color:lightseagreen;
+      }
+
+      .ptag > span:last-child {
+        text-decoration: underline;
+      }
+
+      p > .firstspan {
+        font-style: normal;
+        text-decoration: none;
+        color: red;
+      
+      }
+    </style>
+    <!-- Website use to style https://www.w3schools.com/cssref/ -->
+    <!-- https://cssgradient.io/blog/css-gradient-text/ -->
+  </head>
+
+  <body id="whole-page">
+    <!-- Dish Name -->
+    <h1 class="headings" id="heading1">Maggi</h1>
+
+    <!--Dish Description-->
+    <p class="ptag">Maggi is an <span class="firstspan">international</span> brand of seasonings, 
+      instant <span>soups</span>, and <span>noodles</span> that originated in 
+      <span>Switzerland</span> in late 19th century.</p>
+
+    <!-- List of ingredients -->
+    <h2 class="headings">List of ingredients</h2>
+
+    <ul class="ingredients">
+      <li>Maggi – One packet</li>
+      <li>Water – A cup and a half</li>
+    </ul>
+
+    <!-- Steps for the recipe -->
+    <h2 class="headings">Steps for the recipe</h2>
+    <ol class="steps">
+      <li>Take one and a half cup of water in a pan.🍳</li>
+      <li>Heat the pan on medium flame.🔥</li>
+      <li>When the water comes to boil, add the Noodles Cake to the pan.</li>
+      <li>Cover it with a lid for a minute.🕐 </li>
+      <li>After a minute, uncover the lid and add the tastemaker to the pan.</li>
+      <li>Mix it well, Without breaking the Noodles.🥄</li>
+      <li>Switch off the flame when all the Water boils.👨‍🍳</li>
+      <li>Enjoy the hot Maggi in this lovely weather! 🍜</li>
+    </ol>
+    <!-- Image -->
+    <p class="ptag" >
+      <img src="https://asmallbite.com/wp-content/uploads/2018/05/Maggi-Masala-Noodles.jpg" alt="Maggi" />
+    </p>
+  </body>
+</html>
